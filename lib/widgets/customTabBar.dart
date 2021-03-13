@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import 'package:mental_health/utils/Colors.dart';
 
 class CustomTabBar extends StatefulWidget{
   @override
@@ -10,7 +11,9 @@ class _CustomTabBarState extends State<CustomTabBar>{
   Widget build(BuildContext context) {
     return Container(
       child: AppBar(
-        
+        leading: Drawer(
+
+        ),
       ),
     );
   }
